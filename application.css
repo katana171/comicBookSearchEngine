@@ -1,0 +1,24 @@
+.root{
+	-fx-background-color: 	#36414f;	
+	-fx-font-weight: bold;
+	-fx-font-style: italic;
+	
+}
+
+.lblHeader{
+	-fx-text-fill: blue;
+	-fx-font-weight: bold;
+	-fx-font-style: italic;
+	-fx-font-size: 170%;
+}
+
+.textFields{
+	-fx-control-inner-background: #36414f;
+	-fx-stroke-width: 10;
+}
+
+.labelColor{
+	
+	-fx-text-fill: #d3d3d3;
+	
+}
