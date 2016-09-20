@@ -3,12 +3,24 @@
 ## Introduction
 a comic book search engine that will allow you to search through a list of comics. Add/delete and edit it
 
-## Running and building project
+## Using comicBookSearchEngine
+
+### Setup
+
+You'll need to install JDK 8 for your platform.
+
+Then, you clone the repository on your machine.
+
+```bash
+$ git clone https://github.com/katana171/comicBookSearchEngine.git
+```
+
+### Building and running
 
 ```bash
 $ git clone https://github.com/katana171/comicBookSearchEngine.git
 $ javac $(find . -name "*.java") -d build
-$ java -classpath build Main
+$ java -classpath build application.Main
 ```
 ## Project overview
 

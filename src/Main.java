@@ -260,7 +260,7 @@ import javafx.scene.paint.Color;
          primaryStage.setTitle("Comic Book Search Engine");
          primaryStage.setScene(sceneMain);
 
-         String stylesheet = getClass().getResource("res/css/application.css").toExternalForm();
+         String stylesheet = getClass().getResource("/res/css/application.css").toExternalForm();
          sceneMain.getStylesheets().add(stylesheet);
 
          primaryStage.show();
