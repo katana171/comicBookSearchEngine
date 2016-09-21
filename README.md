@@ -18,7 +18,6 @@ $ git clone https://github.com/katana171/comicBookSearchEngine.git
 ### Building and running
 
 ```bash
-$ git clone https://github.com/katana171/comicBookSearchEngine.git
 $ javac $(find . -name "*.java") -d build
 $ java -classpath build application.Main
 ```
